@@ -1,0 +1,104 @@
+/* Headings */
+h1 {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    opacity: 70%;
+    color:#00fa9a;
+    border-radius: .5em;
+}
+
+h4 {
+    color: #00fa9a;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 3vw;
+}
+
+/* Main Container */
+.container {
+    margin-top: .3em;
+}
+
+/* Home Page */
+.home-p {
+    color: grey;
+    font-size: 3vw;
+}
+
+.home-h3 {
+    font-size: 8vw;
+    color: grey;
+    font-weight: 800;
+}
+
+.link {
+    color:#00fa9a;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:#00fa9a;
+    text-decoration: underline;
+}
+
+/* About Me */
+p {
+    font-size: 2.5vw;
+}
+
+#surprise {
+    color:red;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
+    padding: .1em;
+}
+
+/* Contact */
+
+#message-alert {
+    color: #00fa9a;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
+}
+
+/* Navigation */
+.nav-link { 
+    color:grey;
+    font-size: 3vw;
+}
+
+.nav-link:hover {
+    color: #00fa9a;
+    font-size: 3vw;
+}
+
+.active {
+    border-style: solid;
+    border-width: .1em;
+    border-color: #00fa9a;
+    border-radius: .5em;
+    color: white;
+    font-size: 3vw;
+}
+
+/* Buttons */
+.btn {
+    background-color: #00fa9a;
+    border-color: #00fa9a;
+    color: grey;
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: grey;
+    color:#00fa9a;
+    border-color: grey;
+    text-decoration: underline;
+    opacity: 75%;
+    cursor: pointer;
+    max-width: 100%;
+}
